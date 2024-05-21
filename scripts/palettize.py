@@ -15,7 +15,7 @@ from modules.ui import create_refresh_button
 from modules.shared import opts
 
 script_dir = scripts.basedir()
-pal_path='./extensions/sd-palettize/palettes/'
+pal_path='./stable-diffusion-webui/extensions/sd-palettize/palettes/'
 
 def refreshPalettes():
     palettes = ["None", "Automatic"]
